@@ -1,0 +1,13 @@
+server:
+  port: 8086
+spring:
+  redis:
+    host: 192.168.5.129
+dubbo:
+  application:
+    name: shop_order
+  registry:
+    address: zookeeper://192.168.5.129:2181
+  consumer:
+    check: false
+    timeout: 1000

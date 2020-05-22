@@ -1,0 +1,15 @@
+server:
+  port: 8084
+dubbo:
+    #工程名字
+  application:
+    name: shop_sso
+    #zookeeper链接地址和端口
+  registry:
+    address: zookeeper://192.168.5.129:2181
+  consumer:
+    check: false
+    timeout: 1000
+spring:
+  redis:
+    host: 192.168.5.129

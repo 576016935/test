@@ -1,0 +1,21 @@
+dubbo:
+  application:
+    name: shop_service
+  registry:
+    address: zookeeper://192.168.5.129:2181
+server:
+  port: 8888
+
+  #配置数据源
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql:///shop
+    type: com.mchange.v2.c3p0.ComboPooledDataSource
+mybatis:
+  type-aliases-package: com.qf.entity
+  mapper-locations: classpath*:com/qf/dao/mapper/*.xml
+
+#mybatis

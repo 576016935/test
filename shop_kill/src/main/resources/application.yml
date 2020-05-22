@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql:///shop
+    driver-class-name: com.mysql.jdbc.Driver
+  redis:
+    host: 192.168.5.129
+server:
+  port: 8088
+mybatis:
+  type-aliases-package: com.qf.entity
+  mapper-locations: classpath:com/qf/shop_kill/dao/mapper/*.xml

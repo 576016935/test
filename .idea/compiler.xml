@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shop_cart" />
+        <module name="shop_dao" />
+        <module name="shop_entity" />
+        <module name="shop_front" />
+        <module name="shop_item" />
+        <module name="shop_kill" />
+        <module name="shop_myback" />
+        <module name="shop_order" />
+        <module name="shop_pay" />
+        <module name="shop_search" />
+        <module name="shop_service_api" />
+        <module name="shop_service_impl" />
+        <module name="shop_sso" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="java1804_pom" target="1.8" />
+      <module name="shop_aaa" target="1.8" />
+      <module name="shop_back" target="1.8" />
+      <module name="shop_basds" target="1.8" />
+      <module name="shop_cart" target="1.8" />
+      <module name="shop_dao" target="1.8" />
+      <module name="shop_entity" target="1.8" />
+      <module name="shop_front" target="1.8" />
+      <module name="shop_item" target="1.8" />
+      <module name="shop_kill" target="1.8" />
+      <module name="shop_myback" target="1.8" />
+      <module name="shop_order" target="1.8" />
+      <module name="shop_pay" target="1.8" />
+      <module name="shop_search" target="1.8" />
+      <module name="shop_service_api" target="1.8" />
+      <module name="shop_service_impl" target="1.8" />
+      <module name="shop_sso" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
